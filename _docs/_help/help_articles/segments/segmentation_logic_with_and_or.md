@@ -24,7 +24,7 @@ Use **OR** if you want to target users who meet at least one condition in a grou
 For example, imagine that you want to send a message to all your users __except__ those users on version ```1.0``` or ```1.1``` of your App. You want to target the overlap of users that are not on version ```1.0``` and not on version ```1.1.``` You can create this segment in one of two ways:
 
     
-* You can use two filters “is not ```1.0```” OR “is not ```1.1```”. Using this **OR** filter you are targeting all users that do not have those versions.
+* You can use two filters “is not ```1.0```” and “is not ```1.1```”. Using this **AND** filter you are targeting all users that do not have those versions.
 	
 * The alternative may be a longer route. You will need to add a filter for every version of your app using the OR statement, making sure to exclude app versions ```1.0``` and ```1.1```.
 
