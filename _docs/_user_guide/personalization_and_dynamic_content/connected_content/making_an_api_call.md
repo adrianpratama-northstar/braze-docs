@@ -62,6 +62,10 @@ Hi there, here is fun some trivia for you!: {% connected_content https://yourweb
 
 When making use of Braze's Connected Content, you may find that certain APIs require a token instead of a username and password. Included below is a code snippet to reference and model your messages off of. 
 
+{% alert important %}
+`:headers` does not support Liquid templating.
+{% endalert %}
+
 {% raw %}
 ```
 {% assign campaign_name="New Year Sale" %}
